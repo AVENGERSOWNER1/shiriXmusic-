@@ -5,7 +5,7 @@ from SONALI_MUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "Jani_RP"
+MUST_JOIN = "AvengersNetwork"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
